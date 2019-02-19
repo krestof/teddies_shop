@@ -8,6 +8,7 @@ gem 'pg', '~> 0.21'
 gem 'puma'
 gem 'rails', '5.1.4'
 gem 'redis'
+gem 'money-rails'
 
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~> 3.3'
@@ -30,3 +31,4 @@ group :development, :test do
   gem 'dotenv-rails'
 end
 gem 'rb-readline', '~> 0.5.3'
+gem 'stripe'
